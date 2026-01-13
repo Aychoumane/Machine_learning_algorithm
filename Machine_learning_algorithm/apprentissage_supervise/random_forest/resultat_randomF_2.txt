@@ -1,0 +1,17 @@
+Modèle 1 - Paramètres par défaut
+Exactitude : 0.452
+
+Modèle 2 - n_estimators=200, max_depth=10
+Exactitude : 0.418
+
+Modèle 3 - n_estimators=50, max_features='sqrt'
+Exactitude : 0.432
+
+=== Résultats ===
+Modèle 1 (défaut)                : 0.452
+Modèle 2 (200 arbres, depth=10)   : 0.418
+Modèle 3 (50 arbres, sqrt)        : 0.432
+
+Le meilleur modèle sur la validation est le modèle 0 avec une exactitude de 0.452
+=== Performance finale sur l'ensemble de test ===
+Exactitude : 0.454
